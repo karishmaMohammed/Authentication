@@ -1,0 +1,50 @@
+
+body{
+    background: var(--bg-color);
+    color: black;
+    font-weight: 20px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnsv0tYkd_B45K8pQoi-NVG3orArIYFo8fUg&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.description{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(226, 193, 193);
+	padding: 20px;
+	border-radius: 10px;
+}
+.home{
+    color: aliceblue;
+}
+#sign-up, #sign-in {
+	display: none;
+    text-align: center;
+}
+
+#sign-up-form {
+	width: 700px;
+	margin: auto;
+}
+
+#sign-in-form {
+	width: 400px;
+	margin: auto;
+}
+
+.form-title {
+	font-size: 2.5em;
+}
+
+#profile-nav-link, #sign-out-nav-link {
+	display: none;
+}
+.row{
+    padding: 10px;
+    border-radius: 20px;
+    background: whitesmoke;
+}
+.btn{
+    border-radius: 25px;
+}
